@@ -11,3 +11,11 @@ background-color: #B68C5A;
      border: 1px solid rgba(193, 186, 186, 0.784);
      background-color: rgba(250, 246, 246, 0.939);
 }
+.footer2 a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.rating-icon{
+    width: 20px;
+}
