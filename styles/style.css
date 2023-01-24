@@ -1,21 +1,41 @@
-.banner{
-    background-image: url("../images/Rectangle\ 6.png");
-    height: 100vh;
-    background-repeat: no-repeat;
-}
-.btn{
-background-color: #B68C5A;
+ /* .................
+                    Font
+                    ......................  */
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Poppins:wght@500&display=swap');
 
-}
-.Practice-Area:hover{
+ * {
+     font-family: 'Inter', sans-serif;
+     font-family: 'Lobster', cursive;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .banner {
+     background-image: url("../images/Rectangle\ 6.png");
+     height: 100vh;
+     background-repeat: no-repeat;
+ }
+
+ .btn {
+     background-color: #B68C5A;
+ }
+
+ .rating-icon {
+     width: 20px;
+ }
+
+ .Practice-Area:hover {
      border: 1px solid rgba(193, 186, 186, 0.784);
      background-color: rgba(250, 246, 246, 0.939);
-}
-.footer2 a{
-    color: white;
-    text-decoration: none;
-    list-style: none;
-}
-.rating-icon{
-    width: 20px;
-}
+     cursor: pointer;
+ }
+
+ .footer2 a {
+     color: white;
+     text-decoration: none;
+     list-style: none;
+ }
+
+ .carousel-inner {
+     background: rgba(17, 17, 17, 0.8);
+ }
